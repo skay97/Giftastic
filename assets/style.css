@@ -1,0 +1,39 @@
+body{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/0/0a/3840x2160-feldgrau-solid-color-background.jpg");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+img{
+    max-width: 200px;
+    max-height:200px;
+}
+button{
+    margin-left: 5px;
+    border-radius: 12px;
+    padding: 8px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    border-color: #3B5323
+}
+button:hover {
+    background-color: #3B5323; /* Rommaine lettuce */
+    color: white;
+}
+
+.submit-button{
+    margin-top: 5px;
+    border-radius: 12px;
+    padding: 8px;
+    -webkit-transition-duration: 0.4s;
+     transition-duration: 0.4s;
+    border-color: #3B5323
+}
+.submit-button:hover{
+    background-color: #3B5323; /* Green */
+    color: white;
+}
+input[type=text] {
+    border: 1px#999;
+    border-radius: 5px;
+}

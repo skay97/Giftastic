@@ -34,7 +34,7 @@ function displayGifs() {
         method: "GET"
     }).then(function (response) {
 
-        console.log(response.data); // did not show in console
+        console.log(response.data);
 
         var results = response.data
 
@@ -72,5 +72,6 @@ $(document).on('click', '.gif', function () {
 });
 
 $(document).on("click", ".athlete", displayGifs);
+
 
 makeButton()

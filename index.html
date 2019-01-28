@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>GOATS</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/style.css" />
 </head>
 
@@ -16,20 +18,27 @@
 
         <div id="buttons-view"></div>
 
-        <br><br>
+        <br>
 
         <form id="athlete-form">
-            <label for="athlete-input">Add a GOAT!</label>
-            <input type="text" id="athlete-input"><br>
+            
+            <input type="text" id="athlete-input">
 
             <!-- Button triggers new movie to be added -->
-            <input id="add-athlete" type="submit" value="Add a GOAT!">
+            <input id="add-athlete" type="submit" class="submit-button" value="Add a GOAT!">
         </form>
 
         <br><br>
 
-        <div id="gifsView"></div>
+        <div class="row">
 
+            <div class="col-md-6">
+                
+                <div id="gifsView"></div>
+
+            </div>
+
+        </div>
     </div>
 
 
