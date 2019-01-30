@@ -12,6 +12,7 @@ img{
 }
 button{
     margin-left: 5px;
+    margin-bottom: 5px;
     border-radius: 12px;
     padding: 8px;
     -webkit-transition-duration: 0.4s; 
@@ -50,6 +51,7 @@ h1,
 #athlete-form{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .flex-top{
     margin-top: 35px;
