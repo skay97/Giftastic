@@ -43,7 +43,6 @@ function displayGifs() {
             var gifDiv = $('<div class=gifs>');
             var showGif = $('<img>');
             showGif.attr('src', results[i].images.fixed_height_still.url);
-            // shows the rating on hover
             showGif.attr('title', "Rating: " + results[i].rating);
             showGif.attr('data-still', results[i].images.fixed_height_still.url);
             showGif.attr('data-state', 'still');
